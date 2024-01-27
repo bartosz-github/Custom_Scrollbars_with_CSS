@@ -5,10 +5,19 @@
     font-family: sans-serif;
 }
 
-body {
+/* body {
     background: crimson;
-}
+} */
 
 body {
     background: lightslategray;
+}
+
+.card {
+    width: 700px;
+    background: #ccc;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
 }
