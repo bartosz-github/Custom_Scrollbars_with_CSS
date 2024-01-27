@@ -25,12 +25,10 @@ body {
 /* scrollbar - not on FF*/ 
 ::-webkit-scrollbar {
     background-color: transparent;
-    width: 20px;
+    width: 7px;
 } 
 
- /* - not on FF*/ 
 ::-webkit-scrollbar-thumb {
-    background: red;
+    background: #fff;
+    border-radius: 100px;
 }
-
-/* scrollbar-width: auto; */
