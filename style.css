@@ -10,7 +10,7 @@
 } */
 
 body {
-    background: lightslategray;
+    background: rgb(0, 128, 255);
 }
 
 .card {
@@ -22,8 +22,15 @@ body {
     line-height: 28px;
 }
 
-/* scrollbar */
-
+/* scrollbar - not on FF*/ 
 ::-webkit-scrollbar {
     background-color: transparent;
+    width: 20px;
 } 
+
+ /* - not on FF*/ 
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+/* scrollbar-width: auto; */
