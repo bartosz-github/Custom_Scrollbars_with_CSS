@@ -10,7 +10,8 @@
 } */
 
 body {
-    background: rgb(0, 128, 255);
+    background: slategray;
+    /* background: rgb(0, 128, 255); */
 }
 
 .card {
@@ -26,11 +27,12 @@ body {
 ::-webkit-scrollbar {
     background-color: transparent;
     width: 25px;
-    border: 2px dashed darkgray;
+    /* border: 2px dashed darkgray; */
+    border: 2px darkgray;
 } 
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(rgb(0, 128, 255),#B721FF);
+    /* background: linear-gradient(slategray,#FF6A88); */
+    background-image: linear-gradient(180deg, slategray 0%, #FF6A88 50%, slategray 100%);
     border-radius: 100px;
 }
-
