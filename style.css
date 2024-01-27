@@ -21,3 +21,9 @@ body {
     font-family: sans-serif;
     line-height: 28px;
 }
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    background-color: transparent;
+} 
